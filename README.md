@@ -2,21 +2,19 @@
 pfSense Syncookies patch (for PF - Packet Filtering)
 
 # how to
-On this repo:
-- Go to pfsense-syncookies.patch from this repository;
-- Click in raw button;
-- Copy the complete URI.
+From this repo:
+- Copy the complete URL (https://raw.githubusercontent.com/felipebsd/pfsense-syncookies-patch/refs/heads/main/pfsense-syncookies.patch).
 
 On pfSense:
-- Install System_Patches pkg;
+- Install the System_Patches package;
 - Go to System -> Patches;
-- Click in "Add New Patch";
-- Put any description;
-- Paste in URL/Commit ID;
-- Change Path Strip Count to 1 and save;
+- Click "Add New Patch";
+- Enter a description (any text will do);
+- Paste the URL in "URL/Commit ID" field;
+- Set Path Strip Count to 1 and save;
 - Fetch and apply;
 - Go to Diagnostics -> Command Prompt and execute: /etc/rc.filter_configure;
-- Enjoy.
+- Done! Enjoy.
 
 # references:
 - https://docs.opnsense.org/manual/firewall_settings.html#enable-syncookies
