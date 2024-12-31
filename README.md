@@ -1,7 +1,7 @@
 # pfsense-syncookies-patch
 pfSense Syncookies patch (for PF - Packet Filtering)
 
-# how to
+# how to (Winning the Battle Against SYN Flood Attacks)
 From this repo:
 - Copy the complete URL (https://raw.githubusercontent.com/felipebsd/pfsense-syncookies-patch/refs/heads/main/pfsense-syncookies.patch).
 
