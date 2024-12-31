@@ -1,0 +1,12 @@
+# Works with pfSense-2.7.2-CE
+
+--- /etc/inc/filter.inc	2024-12-31 14:24:40.757708000 -0300
++++ /etc/inc/filter.inc.alterado	2024-12-31 14:10:06.944987000 -0300
+@@ -456,6 +456,7 @@
+ 	}
+ 	$limitrules .= "set limit states {$max_states}\n";
+ 	$limitrules .= "set limit src-nodes {$max_states}\n";
++	$limitrules .= "set syncookies adaptive (start 50%, end 25%)\n";
+
+ 	/* Frag limit. pf default is 5000 */
+ 	if (is_numeric(config_get_path('system/maximumfrags'))) {
