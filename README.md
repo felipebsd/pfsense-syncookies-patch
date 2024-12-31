@@ -5,7 +5,7 @@ pfSense Syncookies patch (for PF - Packet Filtering)
 On this repo:
 - Go to pfsense-syncookies.patch from this repository;
 - Click in raw button;
-- Copy the complete URI;
+- Copy the complete URI.
 
 On pfSense:
 - Install System_Patches pkg;
