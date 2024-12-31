@@ -45,4 +45,3 @@ On pfSense:
 		       ing
 
 			     set syncookies adaptive (start 25%, end 12%)
-    ...
